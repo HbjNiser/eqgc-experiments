@@ -1,0 +1,15 @@
+{
+  "tag": "N20_F15_seed42",
+  "N": 20,
+  "F": 15,
+  "seed": 42,
+  "tr_loss": 0.24077735841274261,
+  "tr_acc": 0.925,
+  "val_loss": 0.3413800932466984,
+  "val_acc": 0.8625,
+  "test_loss": 0.297282662242651,
+  "test_acc": 0.9125,
+  "runtime_sec": 210.6231713294983,
+  "model_path": "cora_multi_exp/models/eduqgc_N20_F15_seed42.pt",
+  "dataset_path": "cora_multi_exp/datasets/cora_N20_F15_seed42.pkl"
+}
