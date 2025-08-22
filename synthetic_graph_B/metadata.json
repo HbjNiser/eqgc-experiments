@@ -1,0 +1,39 @@
+{
+  "seed": 42,
+  "regime": "B",
+  "num_nodes": 25,
+  "num_features": 15,
+  "num_classes": 4,
+  "class_sizes": [
+    7,
+    6,
+    6,
+    6
+  ],
+  "splits": {
+    "train": 12,
+    "val": 6,
+    "test": 7
+  },
+  "probabilities": {
+    "p0": 0.28,
+    "p1": 0.12,
+    "p2": 0.06,
+    "paired_cross": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "feature_sigma": 0.6,
+  "measures": {
+    "adjusted_homophily": 0.4782608695645758,
+    "label_informativeness_edge": 0.29594189156172834
+  },
+  "accepted": true
+}

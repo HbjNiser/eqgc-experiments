@@ -1,0 +1,78 @@
+{
+  "task": "node_classification",
+  "graph_type": "simple_undirected",
+  "num_nodes": 25,
+  "num_edges": 34,
+  "num_features": 15,
+  "num_classes": 4,
+  "class_counts": {
+    "0": 7,
+    "1": 6,
+    "2": 6,
+    "3": 6
+  },
+  "degrees": [
+    4,
+    6,
+    4,
+    1,
+    4,
+    4,
+    3,
+    2,
+    4,
+    1,
+    2,
+    2,
+    4,
+    5,
+    3,
+    1,
+    4,
+    1,
+    1,
+    3,
+    2,
+    3,
+    2,
+    1,
+    1
+  ],
+  "generation": {
+    "model": "SBM_like_with_paired_cross_classes",
+    "regime": "A",
+    "probabilities": {
+      "p0_intra": 0.12,
+      "p1_paired_cross": 0.22,
+      "p2_other_cross": 0.06
+    },
+    "paired_cross": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "feature_sigma": 0.6,
+    "seed": 42
+  },
+  "splits": {
+    "train": 12,
+    "val": 6,
+    "test": 7
+  },
+  "measures": {
+    "adjusted_homophily": 0.026833631484794267,
+    "label_informativeness_edge": 0.22783870316536395,
+    "label_informativeness_node": 0.263078396296587
+  },
+  "notes": {
+    "homophily_property": "Adjusted homophily (assortativity) satisfies maximal agreement and asymptotic constant baseline; empty class tolerant; monotonicity holds for sufficiently large values.",
+    "li_property": "LI has maximal agreement and tends to 0 under configuration-model null; complements homophily by distinguishing heterophilous patterns.",
+    "comparability": "Reporting hadj and LI together enables fair cross-dataset comparison.",
+    "limitations": "Small n=25 yields higher variance in global stats; edges are sampled i.i.d. per SBM-like scheme; connectivity not enforced."
+  }
+}
