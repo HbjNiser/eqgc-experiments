@@ -1,0 +1,10 @@
+{
+  "test_loss": 0.8353544473648071,
+  "test_acc": 0.5,
+  "seed": 42,
+  "metadata": {
+    "name": "structural_graph",
+    "n_nodes": 20,
+    "n_features": 3
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "timestamp": "20250902_040512",
+  "explanations": {
+    "0": {
+      "node_idx": 0,
+      "subgraph_size": 9,
+      "original_prediction": 0,
+      "prediction_confidence": 5.489338397979736,
+      "quantum_uncertainty": 0.6390317678451538,
+      "uncertainty_std": 0.0,
+      "surrogate_fidelity": 0.99,
+      "feature_importance": {
+        "feature_0": 0.12878553206541804,
+        "feature_1": 0.16071321221666193,
+        "feature_2": 0.8193409304627282,
+        "feature_3": 0.7519205437813471
+      },
+      "subgraph_nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        14,
+        17
+      ],
+      "target_idx_in_subgraph": 0
+    },
+    "1": {
+      "node_idx": 1,
+      "subgraph_size": 13,
+      "original_prediction": 0,
+      "prediction_confidence": 4.395618915557861,
+      "quantum_uncertainty": 0.6390317678451538,
+      "uncertainty_std": 0.0,
+      "surrogate_fidelity": 0.99,
+      "feature_importance": {
+        "feature_0": 0.4844592530135951,
+        "feature_1": 0.008645985403058712,
+        "feature_2": 0.46131005429344113,
+        "feature_3": 0.6475127844238122
+      },
+      "subgraph_nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        17
+      ],
+      "target_idx_in_subgraph": 1
+    },
+    "2": {
+      "node_idx": 2,
+      "subgraph_size": 16,
+      "original_prediction": 0,
+      "prediction_confidence": 4.464972972869873,
+      "quantum_uncertainty": 0.6390317678451538,
+      "uncertainty_std": 0.0,
+      "surrogate_fidelity": 0.97,
+      "feature_importance": {
+        "feature_0": 1.0141880244842842,
+        "feature_1": 0.6861825570837052,
+        "feature_2": 0.2701708707499207,
+        "feature_3": 0.8648029134127598
+      },
+      "subgraph_nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        17,
+        18
+      ],
+      "target_idx_in_subgraph": 2
+    }
+  },
+  "analysis_summary": {
+    "avg_subgraph_size": 12.666666666666666,
+    "avg_confidence": 4.783310095469157,
+    "avg_uncertainty": 0.6390317678451538,
+    "avg_fidelity": 0.9833333333333334,
+    "high_fidelity_ratio": 1.0,
+    "feature_ranking": [
+      [
+        "feature_3",
+        0.7547454138726396
+      ],
+      [
+        "feature_0",
+        0.5424776031877658
+      ],
+      [
+        "feature_2",
+        0.51694061850203
+      ],
+      [
+        "feature_1",
+        0.28518058490114195
+      ]
+    ]
+  },
+  "model_info": {
+    "device": "cuda:0",
+    "num_samples": 100,
+    "num_hops": 2,
+    "quantum_perturbation_scale": 0.1
+  }
+}

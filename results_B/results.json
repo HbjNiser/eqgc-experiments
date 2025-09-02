@@ -1,0 +1,110 @@
+{
+  "test_loss": 0.5750294327735901,
+  "test_acc": 0.8571428571428571,
+  "classification_report": {
+    "0": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 2.0
+    },
+    "1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "2": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "3": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "accuracy": 0.8571428571428571,
+    "macro avg": {
+      "precision": 0.9166666666666666,
+      "recall": 0.875,
+      "f1-score": 0.8666666666666666,
+      "support": 7.0
+    },
+    "weighted avg": {
+      "precision": 0.9047619047619048,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8476190476190475,
+      "support": 7.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1
+    ]
+  ],
+  "seed": 42,
+  "dataset": "./synthetic_graph_B",
+  "metadata": {
+    "seed": 42,
+    "regime": "B",
+    "num_nodes": 25,
+    "num_features": 15,
+    "num_classes": 4,
+    "class_sizes": [
+      7,
+      6,
+      6,
+      6
+    ],
+    "splits": {
+      "train": 12,
+      "val": 6,
+      "test": 7
+    },
+    "probabilities": {
+      "p0": 0.28,
+      "p1": 0.12,
+      "p2": 0.06,
+      "paired_cross": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "feature_sigma": 0.6,
+    "measures": {
+      "adjusted_homophily": 0.4782608695645758,
+      "label_informativeness_edge": 0.29594189156172834
+    },
+    "accepted": true
+  }
+}

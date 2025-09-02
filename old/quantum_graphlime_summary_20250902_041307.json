@@ -1,0 +1,128 @@
+{
+  "timestamp": "20250902_041307",
+  "model_info": {
+    "model_type": "QuantumGraphNeuralNetwork",
+    "device": "cuda:0",
+    "num_parameters": 194,
+    "num_trainable_parameters": 194
+  },
+  "dataset_info": {
+    "num_nodes": 20,
+    "num_edges": 92,
+    "num_features": 4,
+    "num_classes": 4
+  },
+  "explanation_summary": {
+    "accuracy": 1.0,
+    "avg_confidence": 4.783310095469157,
+    "avg_uncertainty": 0.6390317678451538,
+    "avg_fidelity": 0.9833333333333334,
+    "feature_stability": {
+      "feature_2": 0.22762250676191428,
+      "feature_0": 0.3637847258229191,
+      "feature_3": 0.08873080997144447,
+      "feature_1": 0.2902677460993831
+    },
+    "degree_uncertainty_correlation": NaN,
+    "size_uncertainty_correlation": NaN,
+    "num_nodes_explained": 3,
+    "avg_subgraph_size": 12.666666666666666,
+    "quantum_uncertainty_correlation": NaN
+  },
+  "quantum_graphlime_config": {
+    "num_samples": 100,
+    "num_hops": 2,
+    "quantum_perturbation_scale": 0.1
+  },
+  "node_explanations": {
+    "0": {
+      "node_idx": 0,
+      "subgraph_size": 9,
+      "true_class": 0,
+      "predicted_class": 0,
+      "prediction_confidence": 5.489338397979736,
+      "quantum_uncertainty": 0.6390317678451538,
+      "surrogate_fidelity": 0.99,
+      "feature_importance": {
+        "feature_0": 0.12878553206541804,
+        "feature_1": 0.16071321221666193,
+        "feature_2": 0.8193409304627282,
+        "feature_3": 0.7519205437813471
+      },
+      "subgraph_nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        14,
+        17
+      ]
+    },
+    "1": {
+      "node_idx": 1,
+      "subgraph_size": 13,
+      "true_class": 0,
+      "predicted_class": 0,
+      "prediction_confidence": 4.395618915557861,
+      "quantum_uncertainty": 0.6390317678451538,
+      "surrogate_fidelity": 0.99,
+      "feature_importance": {
+        "feature_0": 0.4844592530135951,
+        "feature_1": 0.008645985403058712,
+        "feature_2": 0.46131005429344113,
+        "feature_3": 0.6475127844238122
+      },
+      "subgraph_nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        17
+      ]
+    },
+    "2": {
+      "node_idx": 2,
+      "subgraph_size": 16,
+      "true_class": 0,
+      "predicted_class": 0,
+      "prediction_confidence": 4.464972972869873,
+      "quantum_uncertainty": 0.6390317678451538,
+      "surrogate_fidelity": 0.97,
+      "feature_importance": {
+        "feature_0": 1.0141880244842842,
+        "feature_1": 0.6861825570837052,
+        "feature_2": 0.2701708707499207,
+        "feature_3": 0.8648029134127598
+      },
+      "subgraph_nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        17,
+        18
+      ]
+    }
+  }
+}
